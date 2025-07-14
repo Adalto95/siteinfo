@@ -24,17 +24,17 @@ const About = () => {
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-4">
                 <div className="text-center">
-                    <Users className="mx-auto h-10 w-10 text-sky-500" />
+                    <Users className="mx-auto h-10 w-10 text-infostart" />
                     <p className="mt-2 text-2xl font-bold text-gray-900">+1000</p>
                     <p className="text-gray-600">Clientes Ativos</p>
                 </div>
                 <div className="text-center">
-                    <Smile className="mx-auto h-10 w-10 text-sky-500" />
+                    <Smile className="mx-auto h-10 w-10 text-infostart" />
                     <p className="mt-2 text-2xl font-bold text-gray-900">97%</p>
                     <p className="text-gray-600">de Satisfação</p>
                 </div>
                 <div className="text-center">
-                    <Code className="mx-auto h-10 w-10 text-sky-500" />
+                    <Code className="mx-auto h-10 w-10 text-infostart" />
                     <p className="mt-2 text-2xl font-bold text-gray-900">+18</p>
                     <p className="text-gray-600">Anos de Experiência</p>
                 </div>

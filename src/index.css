@@ -49,3 +49,40 @@ a:focus-visible {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+.bg-azul-infostart {
+  background-color: #1835A8;
+}
+
+.botao-azul-infostart {
+  border: 2px solid #1835A8;
+  color: #1835A8;
+  background-color: transparent;
+  border-radius: 9999px; /* arredondamento total como Tailwind `rounded-full` */
+  padding: 1rem 2rem; /* como `px-8 py-4` */
+  font-weight: 600;
+  font-size: 1.125rem; /* text-lg */
+  transition: all 0.3s ease;
+}
+
+.botao-azul-infostart:hover {
+  background-color: #f0f4ff; /* tom leve no hover (ou personalize) */
+}
+
+.bg-infostart {
+  background-color: #1835A8;
+}
+
+.border-infostart {
+  border-color: #1835A8;
+}
+
+.text-infostart {
+  color: #1835A8;
+}
+
+.hover-bg-infostart:hover {
+  background-color: #f0f4ff; /* azul bem claro no hover (opcional) */
+}
+.text-infostart {
+  color: #1835A8;
+}

@@ -108,7 +108,7 @@ const Navbar = ({ scrollToSection }) => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => scrollToSection('contato')}
-              className="hidden md:block bg-gradient-to-r from-sky-500 to-cyan-500 text-white px-6 py-2 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+              className="hidden md:block bg-azul-infostart from-sky-500 to-cyan-500 text-white px-6 py-2 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
             >
               Contato
             </motion.button>
@@ -148,7 +148,7 @@ const Navbar = ({ scrollToSection }) => {
               </Link>
               <button
                 onClick={() => handleMobileLinkClick('contato')}
-                className="w-full bg-gradient-to-r from-sky-500 to-cyan-500 text-white py-3 rounded-full font-semibold shadow-lg"
+                className="w-full bg-azul-infostart from-sky-500 to-cyan-500 text-white py-3 rounded-full font-semibold shadow-lg"
               >
                 Contato
               </button>

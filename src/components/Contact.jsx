@@ -36,7 +36,7 @@ const Contact = () => {
     };
 
   return (
-    <section id="contato" className="py-20 bg-gradient-to-r from-sky-600 to-cyan-600">
+    <section id="contato" className="py-20 bg-azul-infostart from-sky-600 to-cyan-600">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -76,7 +76,7 @@ const Contact = () => {
                 whileTap={{ scale: 0.95 }}
                 type="submit"
                 disabled={isSending}
-                className="w-full bg-gradient-to-r from-sky-500 to-cyan-500 text-white py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full bg-azul-infostart from-sky-500 to-cyan-500 text-white py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {isSending ? 'Enviando...' : 'Enviar Contato'}
               </motion.button>

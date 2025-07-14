@@ -26,14 +26,14 @@ const Hero = ({ scrollToSection }) => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => scrollToSection('solucoes')}
-                className="bg-gradient-to-r from-sky-500 to-cyan-500 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300"
+                className="bg-azul-infostart from-sky-500 to-cyan-500 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300"
               >
                 Nossas Soluções
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 onClick={() => scrollToSection('contato')}
-                className="border-2 border-sky-500 text-sky-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-sky-50 transition-all duration-300"
+                className="botao-azul-infostart rounded-full font-semibold text-lg hover:bg-sky-50 transition-all duration-300"
               >
                 Falar com um especialista
               </motion.button>
@@ -53,11 +53,11 @@ const Hero = ({ scrollToSection }) => {
                 className="relative z-10"
               >
                 <img 
-                  className="w-[450px] h-auto rounded-lg shadow-2xl"
+                  className="w-[450px]"
                   alt="Painel de controle de software de gestão em um tablet"
                  src="/fundo.webp" />
               </motion.div>
-              <div className="absolute inset-0 bg-gradient-to-r from-sky-400 to-cyan-400 rounded-lg blur-2xl opacity-30 scale-110"></div>
+
             </div>
           </motion.div>
         </div>

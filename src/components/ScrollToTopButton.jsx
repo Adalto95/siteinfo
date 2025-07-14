@@ -36,7 +36,7 @@ const ScrollToTopButton = () => {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 bg-gradient-to-r from-sky-500 to-cyan-500 text-white p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 z-40"
+          className="fixed bottom-8 right-8 bg-gradient-to-r from-sky-500 bg-infostart  text-white p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 z-40"
           aria-label="Voltar ao topo"
         >
           <ChevronUp className="w-6 h-6" />

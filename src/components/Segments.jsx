@@ -57,7 +57,7 @@ const Segments = () => {
               viewport={{ once: true, amount: 0.5 }}
               className="text-center p-6 rounded-xl bg-gradient-to-br from-sky-50 to-cyan-50 border border-sky-200 shadow-lg cursor-pointer"
             >
-              <div className="inline-block p-4 bg-gradient-to-r from-sky-500 to-cyan-500 rounded-full mb-4">
+              <div className="inline-block p-4 bg-azul-infostart from-sky-500 to-cyan-500 rounded-full mb-4">
                 <segment.icon className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-lg font-bold text-gray-900">{segment.name}</h3>

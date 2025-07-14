@@ -58,7 +58,7 @@ const Solutions = () => {
               className="bg-white p-8 rounded-2xl shadow-xl flex flex-col md:flex-row items-center gap-6"
             >
               <div className="flex-shrink-0">
-                <div className="p-4 bg-gradient-to-r from-sky-500 to-cyan-500 rounded-full">
+                <div className="p-4 bg-azul-infostart from-sky-500 to-cyan-500 rounded-full">
                   <solution.icon className="w-10 h-10 text-white" />
                 </div>
               </div>
