@@ -13,7 +13,7 @@ A página apresenta informações claras e objetivas sobre **quem somos**, **seg
 ## 🛠️ Tecnologias Utilizadas
 
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [Node.js](https://nodejs.org/)
+- [javascript.js]
 - [Vite](https://vitejs.dev/) – para um ambiente de desenvolvimento moderno e rápido
 
 ---
